@@ -1,0 +1,15 @@
+{
+  "agents": {
+    "defaults": {
+      "model": "ollama/qwen2.5:7b"
+    }
+  },
+  "tools": {
+    "profile": "minimal"
+  },
+  "channels": {
+    "telegram": {
+      "apiRoot": "https://openclawbot.[YOUR-CLOUDFLARE-WORKER].workers.dev"
+    }
+  }
+}
